@@ -1,19 +1,24 @@
 {
-  "name": "vite-tailwind-vuex-starter",
+  "name": "griffintoken-farm",
   "version": "0.0.0",
-  "description": "a simple vite-tailwind-vuex-starter",
+  "description": "a simple griffin token farm for mining griffin tokens",
   "author": {
     "name": "Oluwashina Odumosu",
     "email": "odumz20@gmail.com",
-    "url": "https://github.com/Odumz/vite-tailwind-vuex-starter"
+    "url": "https://github.com/Odumz/GriffinTokens"
   },
   "keywords": [
     "vite",
     "tailwind",
     "vuex",
-    "starter",
-    "vite-tailwind-vuex-starter",
-    "invoice-app",
+    "defi",
+    "crypto",
+    "truffle",
+    "metamask",
+    "griffintoken",
+    "web3",
+    "defi farm",
+    "token farming",
     "store"
   ],
   "scripts": {
@@ -22,9 +27,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
     "vue": "^3.2.25",
     "vue-router": "^4.0.12",
-    "vuex": "^4.0.2"
+    "vuex": "^4.0.2",
+    "web3": "^1.7.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.8",
